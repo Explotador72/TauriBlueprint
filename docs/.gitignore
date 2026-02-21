@@ -1,0 +1,25 @@
+# Dependencias de Node.js
+node_modules/
+
+# Compilaciones de Rust (Tauri) - ¡Muy pesado, no subir!
+src-tauri/target/
+src-tauri/gen/
+
+# Archivos temporales de Python y PyInstaller
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+
+# Archivos de sistema y logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Configuración de IDEs (Opcional, recomendado no subir)
+.vscode/
+.idea/
+
+# Archivos de salida de compilación web (si usaras Vite/Webpack en el futuro)
+dist/
