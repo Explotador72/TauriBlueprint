@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri Base Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tauri Multi-Lang Base</h1>
+      
+      <div class="card">
+        <p>Frontend: HTML + CSS + JS</p>
+        <p>Backend: Rust (Nativo)</p>
+      </div>
+
+      <div class="actions">
+        <button id="btn-js">Probar JS (Alerta)</button>
+        <!-- Estos botones requieren configuración de Sidecar -->
+        <button id="btn-python" class="secondary">Ejecutar Python</button>
+        <button id="btn-java" class="secondary">Ejecutar Java</button>
+      </div>
+      
+      <p id="output">Esperando acción...</p>
+    </div>
+  </body>
+</html>

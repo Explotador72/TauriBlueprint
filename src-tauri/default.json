@@ -1,0 +1,18 @@
+{
+  "identifier": "default",
+  "description": "Permisos por defecto",
+  "local": true,
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "shell:allow-execute",
+    {
+      "identifier": "shell:allow-execute",
+      "allow": [
+        { "name": "run-java", "cmd": "java", "args": ["-jar", "app.jar"] },
+        { "name": "bin/python-script", "sidecar": true }
+      ]
+    }
+  ]
+}
